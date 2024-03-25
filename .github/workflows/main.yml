@@ -62,7 +62,7 @@ jobs:
         with:
           type: 'zip'
           filename: 'release.zip'
-          directory: './out/classSchedule-win32-x64'
+          directory: './out/classSchedule-linux-x64'
 
       - name: Upload release asset
         id: upload-release-asset
